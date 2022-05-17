@@ -16,9 +16,5 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Handler().postDelayed({
-            val intent = Intent(this, YoutubeActivity::class.java)
-            startActivity(intent)
-        }, 3000)
     }
 }
